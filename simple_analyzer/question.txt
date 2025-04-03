@@ -1,0 +1,22 @@
+D:\Learning\simple_analyzer>python -m pip install .
+Processing d:\learning\simple_analyzer
+  Preparing metadata (setup.py) ... done
+Requirement already satisfied: astunparse>=1.6.0 in d:\application\python\lib\site-packages (from simple_analyzer==0.1.0) (1.6.3)
+Collecting typing-extensions>=3.7.0 (from simple_analyzer==0.1.0)
+  Downloading typing_extensions-4.13.0-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in d:\application\python\lib\site-packages (from astunparse>=1.6.0->simple_analyzer==0.1.0) (0.45.1)
+Requirement already satisfied: six<2.0,>=1.6.1 in d:\application\python\lib\site-packages (from astunparse>=1.6.0->simple_analyzer==0.1.0) (1.17.0)
+Downloading typing_extensions-4.13.0-py3-none-any.whl (45 kB)
+Building wheels for collected packages: simple_analyzer
+  Building wheel for simple_analyzer (setup.py) ... done
+  Created wheel for simple_analyzer: filename=simple_analyzer-0.1.0-py3-none-any.whl size=3972 sha256=a65c374fd6344608fcf4be69f988e60b5294961ed012f6d47df7086d49928b35
+  Stored in directory: C:\Users\23187\AppData\Local\Temp\pip-ephem-wheel-cache-_3skq_wf\wheels\68\1e\1d\a08f08bc9cf16a4ac0eb4036c37d099bac689fba7c317d0ed7
+Successfully built simple_analyzer
+Installing collected packages: typing-extensions, simple_analyzer
+Successfully installed simple_analyzer-0.1.0 typing-extensions-4.13.0
+
+[notice] A new release of pip is available: 24.2 -> 25.0.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+D:\Learning\simple_analyzer>python -m sanalyzer example.py
+D:\Application\Python\python.exe: No module named sanalyzer

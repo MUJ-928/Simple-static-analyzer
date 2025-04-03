@@ -1,0 +1,2 @@
+astunparse>=1.6.0
+typing-extensions>=3.7.0
